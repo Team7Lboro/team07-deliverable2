@@ -24,3 +24,4 @@ Route::get('my_tickets', 'TicketsController@userTickets');
 Route::get('tickets/{ticket_id}', 'TicketsController@show');
 Route::get('/specialists', 'SpecialistsController@showSpecialists')->name('specialists');
 Route::get('/equipment', 'EquipmentController@showEquipment')->name('equipment');
+Route::get('/gary', function () { return 'Gary'; });
